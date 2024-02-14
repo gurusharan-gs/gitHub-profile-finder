@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.github-profile-container {
+  width: 100vw;
+  height: 100vh;
+  border-radius: 8px;
+  background-color: rgb(222, 177, 0);
+}
+
+.input-wrapper {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-bottom: 20px;
+  padding-top: 50px;
+}
+
+.input-wrapper input {
+  padding: 12px;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  width: 30%;
+  border-radius: 8px;
+}
+
+.input-wrapper button {
+  padding: 5px 25px;
+  border: none;
+  border-radius: 8px;
+  background-color: aquamarine;
+  color: black;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.user {
+  border-radius: 8px;
+  padding: 15px;
+  background-color: #fff;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  width: 800px;
+  height: 500px;
+  margin: 0 auto;
+}
+
+.name-profile {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.avatar {
+  height: 200px;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.name-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.name-container a {
+  font-size: 40px;
+  list-style: none;
+  text-decoration: none;
+}
+.name-container p {
+  font-size: 20px;
+}
+
+.main-info {
+  display: flex;
+  gap: 220px;
+  margin-left: 60px;
+  margin-top: 20px;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.info-bio {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+}
+
+.main-info-bio {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.btn {
+  padding: 2px 30px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: crimson;
+  color: #fff;
+}
